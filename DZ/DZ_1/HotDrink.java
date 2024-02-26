@@ -9,6 +9,14 @@ public class HotDrink extends Drink {
         this.temperature = temperature;
     }
 
+    public HotDrink(String name, int volume) {
+        this(name, volume, 100);
+    }
+
+    public HotDrink(String name) {
+        this(name, 250, 100);
+    }
+
     public int getTemperature() {
         return temperature;
     }
