@@ -1,4 +1,4 @@
-package Seminar.Seminar_2.task_1;
+package Seminar.Seminar_2.task_1_DZ;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -49,7 +49,6 @@ public class Market implements QueueBehaviour, MarketBehaviour {
         } else {
             System.out.printf("%s вашего заказа нет\n", actors.get(0));
         }
-        // update();
 
     }
 
