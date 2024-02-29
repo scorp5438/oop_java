@@ -1,4 +1,4 @@
-package Seminar.Seminar_2.task_1;
+package Seminar.Seminar_2.task_1_DZ;
 
 public abstract class Actor implements ActorBehaviour {
 

@@ -51,7 +51,7 @@ public class Main {
         students = new ArrayList<>(List.of(s1, s9, s5, s4, s11));
         Group group2 = new Group(students);
 
-        students = new ArrayList<>(List.of(s8, s7, s5, s4, s10));
+        students = new ArrayList<>(List.of(s8, s7, s5, s4, s10, s6));
         Group group3 = new Group(students);
 
         Group group4 = new Group(students);
@@ -60,24 +60,31 @@ public class Main {
 
         Flow flow1 = new Flow(groups);
 
-        groups = new ArrayList<>(List.of(group1, group2, group3, group4, group3, group1));
+        groups = new ArrayList<>(List.of(group1, group2, group3, group4, group3,
+                group1));
         Flow flow2 = new Flow(groups);
+
+        Iterator<Group> iterator = groups.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
 
         System.out.println(flow1.compareTo(flow2));
 
-        // ArrayList<Flow> flows = new ArrayList<>(List.of(flow1, flow2));
+        ArrayList<Flow> flows = new ArrayList<>(List.of(flow1, flow2));
 
-        // Collections.sort(flows);
+        Collections.sort(flows);
 
-        // for (Flow flow : flows) {
-        // System.out.println(flow);
-        // }
+        for (Flow flow : flows) {
+            System.out.println(flow);
+        }
+
         // students.sort(new StudentComparator());
-        // Collections.sort(students);
+        Collections.sort(students);
 
-        // for (Student student : group1) {
-        // System.out.println(student);
-        // }
+        for (Student student : students) {
+            System.out.println(student);
+        }
 
         // Iterator<Student> iterator = group.iterator();
         // while (iterator.hasNext()) {

@@ -18,7 +18,7 @@ import java.util.List;
 // Формат сдачи: ссылка на гитхаб проект
 
 public class Market implements QueueBehaviour, MarketBehaviour {
-    public List<Actor> actors = new LinkedList<>();
+    private List<Actor> actors = new LinkedList<>();
 
     @Override
     public void takeInQueue(Actor actor) { // занять очередь
@@ -64,7 +64,7 @@ public class Market implements QueueBehaviour, MarketBehaviour {
             acceptToMarket(actors.get(0));
             releaseFromMarket(actors);
         } else {
-            System.out.printf("Очередь пуста...");
+            System.out.println("Очередь пуста...");
         }
     }
 

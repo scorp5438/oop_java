@@ -21,11 +21,12 @@ public class Flow implements Comparable<Flow>, Iterable<Group> {
     }
 
     public void setCountGroups(Integer countGroups) {
-        this.countGroups = countGroups;
+        this.countGroups = groups.size();
+        ;
     }
 
     public Integer getCountGroups() {
-        return countGroups;
+        return groups.size();
     }
 
     @Override

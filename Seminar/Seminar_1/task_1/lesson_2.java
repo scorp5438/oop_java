@@ -1,3 +1,4 @@
+package Seminar.Seminar_1.task_1;
 // package Seminar_1.task_1;
 
 // /*

@@ -1,4 +1,4 @@
-package Seminar_1.info;
+package Seminar.Seminar_1.info;
 
 public abstract class Animal {
     String test;
