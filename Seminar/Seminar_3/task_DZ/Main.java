@@ -64,7 +64,7 @@ public class Main {
                 group1));
         Flow flow2 = new Flow(groups);
 
-        Iterator<Group> iterator = groups.iterator();
+        Iterator<Group> iterator = flow2.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
@@ -75,16 +75,17 @@ public class Main {
 
         Collections.sort(flows);
 
-        for (Flow flow : flows) {
-            System.out.println(flow);
-        }
+        // Iterator<Group> iterator2 = flow1.iterator();
+        // while (iterator2.hasNext()) {
+        // System.out.println(iterator2.next());
+        // }
 
         // students.sort(new StudentComparator());
         Collections.sort(students);
 
-        for (Student student : students) {
-            System.out.println(student);
-        }
+        // for (Student student : students) {
+        // System.out.println(student);
+        // }
 
         // Iterator<Student> iterator = group.iterator();
         // while (iterator.hasNext()) {
