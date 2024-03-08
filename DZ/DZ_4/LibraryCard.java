@@ -1,6 +1,3 @@
-// Каждая карточка должна содержать параметры типов K для номера карточки и V
-// для информации о книге.
-
 public class LibraryCard<K, V> {
     private K num;
     private V book;

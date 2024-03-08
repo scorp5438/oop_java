@@ -26,7 +26,6 @@ public class Library {
                 isFind = true;
             }
         }
-
         if (!isFind) {
             System.out.println("Карточка не найдена...");
         }

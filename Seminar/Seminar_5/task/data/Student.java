@@ -18,7 +18,9 @@ public class Student extends User {
 
     @Override
     public String toString() {
-        return "Student [name = " + this.name + "age = " + this.age + "id=" + id + "]";
+        // return "Student [name = " + this.name + "age = " + this.age + "id=" + id +
+        // "]";
+        return String.format("id - %d, Name is %s, years old %d", id, name, age);
     }
 
 }

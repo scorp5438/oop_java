@@ -2,12 +2,14 @@ package Seminar.Seminar_5.task.service;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import Seminar.Seminar_5.task.data.Student;
 import Seminar.Seminar_5.task.data.Teacher;
 import Seminar.Seminar_5.task.data.User;
+import Seminar.Seminar_5.task.view.StudentView;
 
 public class DataService {
+
+    private StudentView studentView = new StudentView();
 
     private ArrayList<Teacher> teachers;
     private ArrayList<Student> students;
@@ -36,5 +38,9 @@ public class DataService {
         } else if (!bool) {
             System.out.println(teachers);
         }
+    }
+
+    public void showStudent(int id) {
+        studentView.findStudent(students, id);
     }
 }
