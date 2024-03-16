@@ -5,4 +5,8 @@ public class NewBook<T> extends Book {
         super(name, author);
     }
 
+    public int getState() {
+        return state;
+    }
+
 }

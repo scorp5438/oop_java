@@ -2,8 +2,8 @@ public class Main {
 
     // SRP
     // Реализован принцип Single Responsibility Principle - из файла Library методы
-    // добавления и
-    // выдачи карточки вынесены в интерфейс CardManager который имплементирует сам
+    // добавления и выдачи карточки вынесены в интерфейс CardManager который
+    // имплементирует сам
     // класс Library
 
     // LCP
@@ -17,7 +17,7 @@ public class Main {
         library.addLibrary(new Book<String>("Кладбище домашних животных", "С. Кинг"));
         library.addLibrary(new Book<String>("Лангоньеры", "С. Кинг"));
         library.addLibrary(new Book<String>("Худеющий", "С. Кинг"));
-        library.addLibrary(new Book<String>("Оно", "С. Кинг"));
+        library.addLibrary(new NewBook<String>("Оно", "С. Кинг", 8));
         library.addLibrary(new NewBook<String>("1984", "Оруэл", 10));
 
         for (LibraryCard string : library.getList()) {

@@ -25,7 +25,7 @@ public class Teacher extends User {
     public String toString() {
         // return "Student [name = " + this.name + "age = " + this.age + "id=" +
         // this.disciples + "]";
-        return String.format("Teacher %s, Name is %s, ears old %d", disciples, name, age);
+        return String.format("Учитель %s, имя %s, возраст %d", String.join(", ", disciples), name, age);
     }
 
 }

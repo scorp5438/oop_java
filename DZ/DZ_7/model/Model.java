@@ -1,10 +1,9 @@
 package DZ.DZ_7.model;
 
 public interface Model {
-    double res();
+    ComplexNumber res();
 
-    void setNum1(double value);
+    void setNum1();
 
-    void setNum2(double value);
-
+    void setNum2();
 }

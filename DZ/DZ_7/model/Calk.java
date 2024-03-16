@@ -1,23 +1,29 @@
 package DZ.DZ_7.model;
 
 public class Calk implements Model {
-    protected double x;
-    protected double y;
-    protected String op;
+    protected ComplexNumber x;
+    protected ComplexNumber y;
 
     @Override
-    public double res() {
-        return 0;
+    public ComplexNumber res() {
+        return new ComplexNumber(0, 0);
     }
 
     @Override
-    public void setNum1(double value) {
-        x = value;
+    public void setNum1() {
+    }
+
+    public void setNum1(ComplexNumber complexNumber) {
+        this.x = complexNumber;
     }
 
     @Override
-    public void setNum2(double value) {
-        y = value;
+    public void setNum2() {
+
+    }
+
+    public void setNum2(ComplexNumber complexNumber) {
+        this.y = complexNumber;
     }
 
 }
