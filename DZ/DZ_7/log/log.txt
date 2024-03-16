@@ -1,0 +1,43 @@
+мар. 16, 2024 7:43:08 PM DZ.DZ_7.model.LogToFile log
+INFO: result:(-2,0 + 11,0i)
+мар. 16, 2024 8:00:34 PM DZ.DZ_7.model.LogToFile log
+INFO: result:(-6,0 + 13,0i)
+мар. 16, 2024 8:14:57 PM DZ.DZ_7.model.LogToFile log
+INFO: result:(4,0 + 3,0i)
+мар. 16, 2024 8:15:19 PM DZ.DZ_7.model.LogToFile log
+INFO: result:(-65,0 + 65,0i)
+мар. 16, 2024 8:15:33 PM DZ.DZ_7.model.LogToFile log
+INFO: result:(0,5 + 0,2i)
+мар. 16, 2024 8:15:59 PM DZ.DZ_7.model.LogToFile log
+INFO: result:(4,0 + 6,0i)
+мар. 16, 2024 8:16:38 PM DZ.DZ_7.model.LogToFile log
+INFO: result:(4,0 + 6,0i)
+мар. 16, 2024 8:16:54 PM DZ.DZ_7.model.LogToFile log
+INFO: result:(4726,0 + 393,0i)
+мар. 16, 2024 8:17:26 PM DZ.DZ_7.model.LogToFile log
+INFO: result:(0,3 + 0,1i)
+мар. 16, 2024 8:18:08 PM DZ.DZ_7.model.LogToFile log
+INFO: result:(-5,0 + 10,0i)
+мар. 16, 2024 8:18:51 PM DZ.DZ_7.model.LogToFile log
+INFO: result:(-9,9 - 9,6i)
+мар. 16, 2024 8:21:33 PM DZ.DZ_7.model.LogToFile log
+INFO: result:(0,8 + 0,1i)
+мар. 16, 2024 8:21:49 PM DZ.DZ_7.model.LogToFile log
+INFO: result:(4,0 + 6,0i)
+мар. 16, 2024 8:22:06 PM DZ.DZ_7.model.LogToFile log
+INFO: result:(0,3 + 0,1i)
+мар. 16, 2024 8:22:42 PM DZ.DZ_7.model.LogToFile log
+INFO: result:(48,0 + 64,0i)
+мар. 16, 2024 8:22:50 PM DZ.DZ_7.model.LogToFile log
+INFO: result:(23,0 + 1,0i)мар. 16, 2024 8:30:39 PM DZ.DZ_7.model.LogToFile log
+INFO: result:(-14,0 + 17,0i)
+мар. 16, 2024 8:30:52 PM DZ.DZ_7.model.LogToFile log
+INFO: result:(0,7 + 0,4i)
+мар. 16, 2024 8:31:20 PM DZ.DZ_7.model.LogToFile log
+INFO: result:(59,0 + 18,0i)
+мар. 16, 2024 8:31:29 PM DZ.DZ_7.model.LogToFile log
+INFO: result:(-15,0 + 20,0i)
+мар. 16, 2024 8:31:40 PM DZ.DZ_7.model.LogToFile log
+INFO: result:(1,5 + 0,0i)
+мар. 16, 2024 8:31:50 PM DZ.DZ_7.model.LogToFile log
+INFO: result:(0,0 + 2,0i)

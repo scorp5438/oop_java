@@ -8,11 +8,6 @@ public class View {
     Scanner sc = new Scanner(System.in);
     private double[] puzzleComplexNum = new double[4];
 
-    // public double getValue(String text) {
-    // System.out.printf("%s ", text);
-    // return sc.nextDouble();
-    // }
-
     public double[] getValue() {
         for (int i = 0; i < 4; i++) {
             if (i % 2 == 0) {
