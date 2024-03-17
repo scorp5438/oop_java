@@ -10,7 +10,7 @@ public class Controller {
     protected View view;
     protected ComplexNumber resalt;
 
-    CalcFactory cf = new CalcFactory();
+    protected CalcFactory cf = new CalcFactory();
 
     public Controller(Calk c, View v) {
         calk = c;
