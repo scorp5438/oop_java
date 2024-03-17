@@ -10,7 +10,7 @@ public class Main {
         Controller controller = new Controller(new Calk(), new View());
         ControllerDecorator controllerDecor = new ControllerDecorator(new Controller(new Calk(), new View()));
 
-        // controller.buttonClick();
+        controller.buttonClick();
         controllerDecor.buttonClick();
         controllerDecor.buttonClick();
         controllerDecor.buttonClick();
